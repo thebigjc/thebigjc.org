@@ -19,7 +19,7 @@ end
 
 desc 'Build and deploy'
 task :deploy => :build do
-  sh 'rsync -rtzh --progress --delete _site/ username@servername:/var/www/websitename/'
+  sh 's3cmd sync _site/ s3://www.thebigjc.org/ -P --delete-removed'
 end
 
 desc 'Check links for site already running on localhost:4000'

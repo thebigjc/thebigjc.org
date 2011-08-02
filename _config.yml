@@ -1,27 +1,27 @@
 # standard jekyll configuration
 
 permalink: date
-pygments: true
+pygments: false
 exclude: ['Rakefile', 'README.md', 'config.rb']
 markdown: rdiscount
 
 # configuration required for some pages
 
-domain: blog.example.com
-title: My Blog Title
-author: Me
-email: me@example.com
+domain: www.thebigjc.org
+title: Jordan Christensen's blog o fun
+author: Jordan Christensen
+email: jordan@thebigjc.org
 
 # configuration for ehancements, uncomment to enable
 
 # feedburner:
 #   id: feedburnerid
 
-# google_analytics:
-#   account: UA-XXXXX-X
+google_analytics:
+   account: UA-1388949-1
 
-# github:
-#   username: ghusername
+github:
+  username: thebigjc
 
 # disqus:
 #   id: disqusid
