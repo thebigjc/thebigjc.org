@@ -8,7 +8,7 @@ markdown: rdiscount
 # configuration required for some pages
 
 domain: www.thebigjc.org
-title: Jordan Christensen's blog o fun
+title: Jordan Christensen&apos;s blog o fun
 author: Jordan Christensen
 email: jordan@thebigjc.org
 
@@ -23,5 +23,8 @@ google_analytics:
 github:
   username: thebigjc
 
+facebook: 
+  id: 500149926
+	
 # disqus:
 #   id: disqusid
